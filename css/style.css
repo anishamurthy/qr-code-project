@@ -50,8 +50,8 @@ body{
       background: #D5E1EF;
       
     }
-   body > div{
-     max-width: 320px;
+   body > main{
+     width: 320px;
      height: 497px;
      background:#ffffff;
      border-radius:10px;
@@ -61,11 +61,11 @@ body{
      font-size: 15px;
      line-height: 19px;
      letter-spacing: 0.1875px;  
-     position:relative;
      position:absolute;
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
+     box-shadow: 0 4px 23px 2px rgb(0 0 0 / 20%);
     }
     img{
      border-radius:10px;
