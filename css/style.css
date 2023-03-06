@@ -74,6 +74,7 @@ body{
     }
     h1{
      font-family: 'Outfit', sans-serif;
+     font-weight:700;
      font-size: 22px;
      line-height: 28px;
      color: #1F314F;
