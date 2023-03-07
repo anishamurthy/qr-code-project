@@ -47,13 +47,13 @@ table {
     border-spacing: 0;
 }
 body{
-      background: #D5E1EF;
-      
+      background: #D5E1EF;    
     }
    body > main{
-     width: 320px;
+     max-width: 320px;
      height: 497px;
      background:#ffffff;
+     margin:5px;
      border-radius:10px;
      text-align:center;
      color: #7D889E;
@@ -68,6 +68,8 @@ body{
      box-shadow: 0 4px 23px 2px rgb(0 0 0 / 20%);
     }
     img{
+      width:288px;
+      height:288px;
      border-radius:10px;
      margin:16px 16px 0px 16px;
 
@@ -88,21 +90,14 @@ body{
       position: absolute;
      left: 5.56%;
      right: 5.56%;
-     top:380px;
-      
+     top:380px; 
     }
-
-     
     .attribution { 
       font-size: 11px; 
       text-align: center; 
+      width:100%;
       position:absolute;
-      left: 5.56%;
-     right: 5.56%;
-      top:450px;
-
-
-
+      top:576px;
     }
     .attribution a { color: hsl(228, 45%, 44%); }
       
