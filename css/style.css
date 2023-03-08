@@ -28,9 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-body {
-    line-height: 1;
-}
+
 ol, ul {
     list-style: none;
     }
@@ -46,59 +44,45 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+*{
+  box-sizing:border-box;
+}
 body{
-      background: #D5E1EF;    
-    }
-   body > main{
-     max-width: 320px;
-     height: 497px;
-     background:#ffffff;
-     margin:5px;
-     border-radius:10px;
-     text-align:center;
-     color: #7D889E;
-     font-family: 'Outfit', sans-serif;
-     font-size: 15px;
-     line-height: 19px;
-     letter-spacing: 0.1875px;  
-     position:absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     box-shadow: 0 4px 23px 2px rgb(0 0 0 / 20%);
-    }
-    img{
-      width:288px;
-      height:288px;
-     border-radius:10px;
-     margin:16px 16px 0px 16px;
+ background: #D5E1EF; 
+ padding:3%;
+ margin:8px;
+}
+body > main{
+  max-width: 320px;
+  background:#ffffff;
+  border-radius:10px;
+  text-align:center;
+  color: #7D889E;
+  font-family: 'Outfit', sans-serif;
+  margin-top: 23px;
+  margin:5px auto 5px;
+  box-shadow: 0 4px 23px 2px rgb(0 0 0 / 20%);
+  padding:15px;
+}
+ img{
+  display:block;
+  width:100%;
+  border-radius:10px;
+}
+ h1{
+  font-family: 'Outfit', sans-serif;
+  line-height: 1.27;
+  font-weight:700;
+  font-size:1.375em;
+  color: #1F314F; 
+  margin:5.3% 0;
+}
+p{
+  margin-bottom:23px;
+  line-height:1.3;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 
-    }
-    h1{
-     font-family: 'Outfit', sans-serif;
-     font-weight:700;
-     font-size: 22px;
-     line-height: 28px;
-     color: #1F314F;
-     height: 56px;
-     position: absolute;
-     left: 5.56%;
-     right: 5.56%;
-    }
-    .scan{
-      height: 57px;
-      position: absolute;
-     left: 5.56%;
-     right: 5.56%;
-     top:380px; 
-    }
-    .attribution { 
-      font-size: 11px; 
-      text-align: center; 
-      width:100%;
-      position:absolute;
-      top:576px;
-    }
-    .attribution a { color: hsl(228, 45%, 44%); }
-      
+    
       
